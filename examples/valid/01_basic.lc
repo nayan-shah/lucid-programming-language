@@ -1,0 +1,6 @@
+note: Basic Lucid program
+set name to "Alice"
+set age to 25
+set score to 98.5
+say name
+say age plus 1

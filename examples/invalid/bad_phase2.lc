@@ -1,0 +1,16 @@
+note: wrong arg count
+create sayHi using name
+    say name
+end
+
+note: calling with no arg (should error)
+call sayHi
+
+note: calling non-function (should error)
+set myVar to 10
+call myVar
+
+note: repeat with decimal count (should error)
+repeat 2.5 times
+    say "hi"
+end

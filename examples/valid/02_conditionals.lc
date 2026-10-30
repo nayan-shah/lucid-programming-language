@@ -1,0 +1,11 @@
+set temperature to 35
+set is_hot to yes
+
+if temperature is greater than 30 then
+    say "It is hot outside!"
+    if is_hot is equal to yes then
+        say "Stay hydrated!"
+    end
+otherwise
+    say "Nice weather!"
+end

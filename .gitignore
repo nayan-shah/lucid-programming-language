@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+lucid.exe
+test_lucid.exe
+.pytest_cache/
+dashboard/.env
+dashboard/.env.*
+!dashboard/.env.example
+node_modules/
+dashboard/node_modules/
+dist/
+dashboard/dist/

@@ -1,0 +1,4 @@
+set name to "Alice"
+if name is old enough then
+    say "Welcome!"
+end
